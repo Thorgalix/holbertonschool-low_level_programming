@@ -7,3 +7,4 @@ Ex5=putchar 0-9 ASCII
 Ex6=putchar 0-9 ASCII
 Ex7=putchar z-a
 Ex8=putchar 0-f hexa
+Ex9=putchar 0-9 avec virgule et espace
