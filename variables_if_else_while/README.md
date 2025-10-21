@@ -5,3 +5,4 @@ Ex3=putchar a-z A-Z
 Ex4=putchar a-z sans q et e
 Ex5=putchar 0-9 ASCII
 Ex6=putchar 0-9 ASCII
+Ex7=putchar z-a
