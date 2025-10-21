@@ -3,3 +3,4 @@ Ex1=same with last digit
 Ex2=putchar pour a-z
 Ex3=putchar a-z A-Z
 Ex4=putchar a-z sans q et e
+Ex5=putchar 0-9 ASCII
