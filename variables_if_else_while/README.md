@@ -6,3 +6,4 @@ Ex4=putchar a-z sans q et e
 Ex5=putchar 0-9 ASCII
 Ex6=putchar 0-9 ASCII
 Ex7=putchar z-a
+Ex8=putchar 0-f hexa
