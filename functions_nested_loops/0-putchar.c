@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
-* main - fonction
+* main - fonction _putchar
 *
-* Fonction du programme : 
-* 
+* Fonction du programme : affiche _putchar
 *
 * Return: 0 si réussi
 */
@@ -12,7 +11,7 @@ int main(void)
 {
 	char p[] = "_putchar";
 	int i = 0;
-	while (i < 8)
+		while (i < 8)
 	{
 		_putchar(p[i]);
 		i++;
