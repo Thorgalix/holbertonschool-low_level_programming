@@ -3,6 +3,7 @@
   "editor.insertSpaces": false,
 "editor.tabSize": 4,
 "files.associations": {
-	"unistd.h": "c"
+	"unistd.h": "c",
+	"main.h": "c"
 }
 }
