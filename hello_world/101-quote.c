@@ -1,5 +1,9 @@
 #include <unistd.h>
-
+/**
+ * main - prints a quote to the standard error
+ *
+ * Return: 1 (error code)
+ */
 
 int main(void)
 {
