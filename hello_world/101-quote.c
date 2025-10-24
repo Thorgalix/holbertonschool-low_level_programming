@@ -1,14 +1,11 @@
-#include <stdio.h>
+#include <unistd.h>
 
 
 int main(void)
 {
-	char a[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	int b;
+	char a[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	for (b = 0; a[b] != '\0'; b++)
-	putchar(a[b]);
-	putchar('\n');
+	write(2, a, sizeof(a) - 1);
 
 	return (1);
 }
