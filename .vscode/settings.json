@@ -4,7 +4,8 @@
 "editor.tabSize": 4,
 "files.associations": {
 	"unistd.h": "c",
-	"main.h": "c"
+	"main.h": "c",
+	"c": "c"
 },
 "C_Cpp.errorSquiggles": "disabled"
 }
