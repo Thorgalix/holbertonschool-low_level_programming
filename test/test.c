@@ -2,6 +2,9 @@
 
 int main(void)
 {
-    printf("%d\n", 80 % 3);
-    return 0;
+int arr[5];
+
+
+printf("Size of type 'int' on my computer: %d bytes\n", arr[5]);
+
 }
