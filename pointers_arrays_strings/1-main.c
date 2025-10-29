@@ -1,4 +1,3 @@
-Tasks
 #include "main.h"
 #include <stdio.h>
 
@@ -15,7 +14,11 @@ char *ptr;
 
 printf("%s\n", s1);
 printf("%s", s2);
-ptr = _strcat(s1, s2);
+ptr = _strncat(s1, s2, 1);
+printf("%s\n", s1);
+printf("%s", s2);
+printf("%s\n", ptr);
+ptr = _strncat(s1, s2, 1024);
 printf("%s", s1);
 printf("%s", s2);
 printf("%s", ptr);
