@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _memset - fills memory with a constant byte
- * @s: pointer to the memory area to be filled
- * @b: the byte to fill the memory with
- * @n: number of bytes to be filled
+ * _memcpy - copies n bytes from memory area src to memory area dest
+ * @dest: pointer to the destination memory area
+ * @src: pointer to the source memory area
+ * @n: number of bytes to copy
  *
- * Return: pointer to the memory area s
+ * Return: pointer to the destination memory area
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
