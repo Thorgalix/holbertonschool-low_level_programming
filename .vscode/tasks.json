@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build malloc_free/a",
+			"type": "shell",
+			"command": "gcc",
+			"args": [
+				"-g",
+				"-o",
+				"a",
+				"*.c"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/malloc_free"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		},
+		{
+			"label": "build malloc_free/s",
+			"type": "shell",
+			"command": "gcc",
+			"args": [
+				"-g",
+				"-o",
+				"s",
+				"*.c"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/malloc_free"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		}
+	]
+}
