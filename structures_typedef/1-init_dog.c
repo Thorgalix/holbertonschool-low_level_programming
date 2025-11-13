@@ -9,7 +9,23 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	d->name = name;
+	int l, i;
+
+	for (l = 0; name[l] != '\0'; l++)
+	;
+	d->name = malloc(l + 1);
+	for (i = 0; i <= l; i++)
+	{
+		d->name[i] = name[i];
+	}
+
+	for (l = 0; owner[l] != '\0'; l++)
+	;
+	d->owner = malloc(l + 1);
+	for (i = 0; i <= l; i++)
+	{
+		d->owner[i] = owner[i];
+	}
+
 	d->age = age;
-	d->owner = owner;
 }
