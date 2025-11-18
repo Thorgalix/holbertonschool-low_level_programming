@@ -5,7 +5,8 @@
 "files.associations": {
 	"unistd.h": "c",
 	"main.h": "c",
-	"c": "c"
+	"c": "c",
+	"3-calc.h": "c"
 },
 "C_Cpp.errorSquiggles": "disabled"
 }
