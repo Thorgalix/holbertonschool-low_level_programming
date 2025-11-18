@@ -16,23 +16,20 @@ int main(int argc, char *argv[])
 	if (argc != 4)
 	{
 		printf("Error\n");
-		printf("%s\n", argv[1]);
-		return (1);
+		exit(98);
 	}
-
-	x = atoi(argv[1]);
-	y = atoi(argv[3]);
-
 	op = get_op_func(argv[2]);
 	if (op == NULL)
 	{
 		printf("Error\n");
-		return (1);
+		exit(99);
 	}
+	x = atoi(argv[1]);
+	y = atoi(argv[3]);
 	if ((argv[2][0] == '/' || argv[2][0] == '%') && y == 0)
 	{
 		printf("Error\n");
-		return (1);
+		exit(100);
 	}
 	printf("%d\n", op(x, y));
 	return (0);
