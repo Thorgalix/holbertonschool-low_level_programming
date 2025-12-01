@@ -7,7 +7,8 @@
 	"main.h": "c",
 	"c": "c",
 	"3-calc.h": "c",
-	"string.h": "c"
+	"string.h": "c",
+	"lists.h": "c"
 },
 "C_Cpp.errorSquiggles": "disabled"
 }
