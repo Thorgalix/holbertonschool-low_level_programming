@@ -2,7 +2,14 @@
 #include <stdlib.h>
 #include <string.h>
 #include "hash_tables.h"
-
+/**
+ * hash_table_set - Adds or updates a key/value pair in a hash table
+ * @ht: Pointer to the hash table
+ * @key: Key to insert (cannot be empty)
+ * @value: Value associated with the key (will be duplicated)
+ *
+ * Return: 1 on success, 0 on failure
+*/
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int i;
